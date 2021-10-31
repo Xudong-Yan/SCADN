@@ -19,6 +19,9 @@ scikit-image = 0.15.0
 
 On Mvtec AD dataset:
 Download checkpoints form https://pan.baidu.com/s/1TEwc_C9HPs6GOrRA1z_HfA code:9s47.
+
 Then unzip and move it to `./ckpt`.
+
 Run this comand to get result of `${class_name}` shch as bottle etc.
+
 `python test.py configs/config_mvtec.py --subset ${class_name}`
